@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stego-Image</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="heading-primary">Stego-Image</h1>
+        <h2 class="heading-secondary">An Image Stegnography Project</h2>
+      </header>
+      <main class="main">
+        <div class="toggle-box">
+          <button class="toggle-btn toggle-encry toggle-active">
+            Encryption
+          </button>
+          <button class="toggle-btn toggle-decry">Decryption</button>
+        </div>
+        <div class="stegno-box">
+          <div class="encryption-box">
+            <div class="form-box">
+              <div>
+                <div class="form-group">
+                  <label for="">Enter Your Seceret Message : </label>
+                  <input type="text" id="inputText" />
+                </div>
+                <div class="form-group">
+                  <label>Upload Image For Encryption : </label>
+                  <input
+                    name="encry-preview-upload"
+                    type="file"
+                    accept="image/*"
+                    id="inputImageEncry"
+                  />
+                </div>
+                <div class="form-group key-box" id="encrypt-key-box">
+                  <label>Enter Key For Text Encryption</label>
+                  <input
+                    id="textEncryptKey"
+                    type="password"
+                    placeholder="Example : 123"
+                  />
+                  <span class="note"
+                    >NOTE : Remember this key for decryption !</span
+                  >
+                </div>
+                <div class="form-group">
+                  <!-- <input
+                    type="submit"
+                    value="Encrypt"
+                    id="encryptBtn"
+                    disabled
+                  /> -->
+                  <button class="submit-btn" id="encryptBtn" disabled>
+                    Encrypt
+                  </button>
+                </div>
+              </div>
+              <div class="image-preview">
+                <img
+                  id="previewImageEncry"
+                  src="./assets/sample.jpg"
+                  alt="upload_image_preview"
+                />
+              </div>
+            </div>
+            <div class="message-box" id="message-box-encry">
+              <img
+                src="./assets/loader.png"
+                alt="AJAX loader"
+                class="loader-image"
+              />
+              <!-- <p class="message-text">
+                Encryption Successfull .... Click below to download the image
+              </p>
+              <a
+                href=""
+                class="download-btn"
+                id="download-btn"
+                download="encrypted_image.png"
+                disabled
+                >Download</a
+              > -->
+            </div>
+          </div>
+          <div class="decryption-box inactive-box">
+            <div class="form-box">
+              <div>
+                <div class="form-group">
+                  <label for="">Upload Seceret Image : </label>
+                  <input
+                    name="decry-preview-upload"
+                    type="file"
+                    accept="image/*"
+                    id="inputImageDecry"
+                  />
+                </div>
+                <div class="form-group key-box" id="decrypt-key-box">
+                  <label>Enter Key For Text Decryption</label>
+                  <input
+                    id="textDecryptKey"
+                    type="password"
+                    placeholder="Example : 123"
+                  />
+                </div>
+                <div class="form-group">
+                  <!-- <input
+                    type="submit"
+                    value="Decrypt"
+                    id="decryptBtn"
+                    disabled
+                  /> -->
+                  <button class="submit-btn" id="decryptBtn" disabled>
+                    Decrypt
+                  </button>
+                </div>
+              </div>
+              <div class="image-preview">
+                <img
+                  id="previewImageDecry"
+                  class="previewImage"
+                  src="./assets/sample.jpg"
+                  alt="upload_image_preview"
+                />
+              </div>
+            </div>
+            <div class="message-box" id="message-box-decry">
+              <img
+                src="./assets/loader.png"
+                alt="AJAX loader"
+                class="loader-image"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="footer-text">
+          <!-- Made with 💛 by -->
+         
+          <a
+            href="https://www.linkedin.com/in/rahul-kumar-591916213/"
+            target="_blank"
+            class="owner-name-link"
+            >By Rahul</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

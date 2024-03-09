@@ -1,0 +1,17 @@
+{
+  "name": "imagestegnography",
+  "version": "1.0.0",
+  "description": "Image StegnoGraphy",
+  "scripts": {
+    "test": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
