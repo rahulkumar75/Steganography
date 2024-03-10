@@ -1,9 +1,9 @@
 Welcome to [Stego-Image]!
 
 ## Description
-This is a brief description of our website. Including what it does, who it's for, and any other relevant information.
+This is a brief description of our website.
 
-Introduction to Stego-Image: Safeguarding Communication with Image Steganography with Cryptography(AES) Algorithm.
+This Website Stego-Image, Safeguarding Communication with Image Steganography with Cryptography(AES) Algorithm.
 Stego-Image offers a cutting-edge solution by harnessing the power of steganography to conceal sensitive information within innocent-looking images.
 
 
