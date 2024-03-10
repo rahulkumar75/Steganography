@@ -7,8 +7,8 @@ Introduction to Stego-Image: Safeguarding Communication with Image Steganography
 Stego-Image offers a cutting-edge solution by harnessing the power of steganography to conceal sensitive information within innocent-looking images.
 
 
-## Live URL
-You can access the live version of the website [Stego-image]([https://stegoimage.netlify.app/).
+## Live URL : https://stegoimage.netlify.app/
+You can access the live version of the website [Stego-image].
 
 ## Features
 With Stego-Image, users can encode their messages seamlessly into images, making them virtually undetectable to prying eyes.
