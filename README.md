@@ -1,8 +1,5 @@
-Welcome to [Stego-Image]!
 
 ## Description
-This is a brief description of our website.
-
 This Website Stego-Image, Safeguarding Communication with Image Steganography with Cryptography(AES) Algorithm.
 Stego-Image offers a cutting-edge solution by harnessing the power of steganography to conceal sensitive information within innocent-looking images.
 
