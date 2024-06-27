@@ -43,7 +43,7 @@ This project provides a web-based tool that allows users to encrypt and decrypt 
 
 # How to Run
 1. Clone the Repository:
-git clone https://github.com/yourusername/image-encryption-tool.git
+git clone https://github.com/rahulkumar75/Steganography.git
 
 2. Install Dependencies:
   -Ensure you have npm installed, then run:
