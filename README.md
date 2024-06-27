@@ -1,6 +1,6 @@
-# Image Encryption and Decryption Tool Live URL: https://stegoimage.netlify.app/
-You can access the live version of the website [Stego-image].
-This project provides a web-based tool that allows users to encrypt and decrypt text messages within images. It uses the CryptoJS library for AES encryption and decryption, providing secure handling of text data. The project also includes features for previewing images, encoding encrypted messages into images, and decoding them back.
+# Image Encryption and Decryption Tool 
+Live URL: https://stegoimage.netlify.app/
+This project [Stego-image] provides a web-based tool that allows users to encrypt and decrypt text messages within images. It uses the CryptoJS library for AES encryption and decryption, providing secure handling of text data. The project also includes features for previewing images, encoding encrypted messages into images, and decoding them back.
 
 # Snapshot
 ![Stego-Image Encryption](https://github.com/rahulkumar75/Steganography/assets/95310768/839d5837-72a1-4cee-ae08-32154536b8fd)
